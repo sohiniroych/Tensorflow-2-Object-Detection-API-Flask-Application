@@ -22,7 +22,7 @@ RUN pip install Cython && \
     pip install tensorflow && \
     pip install Pillow && \
     pip install tk && \
-    pip install lxml==3.7.0 && \
+    pip install lxml && \
     pip install tf_slim && \
     pip install requests
 
