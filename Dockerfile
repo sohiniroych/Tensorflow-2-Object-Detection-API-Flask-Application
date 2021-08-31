@@ -10,7 +10,7 @@ RUN apt-get update && \
 RUN git clone --depth 1 https://github.com/tensorflow/models.git
 
 # Install object detection api dependencies
-RUN apt-get install -y protobuf-compiler
+RUN apt install -y protobuf-compiler
 
 RUN pip install Cython && \
     pip install contextlib2 && \
